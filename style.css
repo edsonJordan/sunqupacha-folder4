@@ -300,17 +300,18 @@ margin: auto;
     border-bottom-right-radius: .8rem;
     background-color:  var(--secondary-White);
 }
-.button.submit{
-    position: relative;    
-    outline: none;
+.button{
+    position: relative;        
     border: none;
     border-radius: 50%;    
     height:1.3rem;
     width: 1.3rem;
-    background-color: var(--secondary-Very-dark-desaturated-violet);    
+    background-color: var(--secondary-Very-dark-desaturated-violet);         
+}
+.submit{
+    font-size: 12px;   
     background-size: contain;
-    font-size: 12px;
-    background-image:  url(chat-app-css-illustration-master/images/angle-right-solid.svg) !important;   
+    background-image:  url(chat-app-css-illustration-master/images/angle-right-solid.svg);   
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
