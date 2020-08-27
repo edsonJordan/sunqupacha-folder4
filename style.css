@@ -76,7 +76,7 @@ body{
     position: relative;
     top: -1px;
     display: block;
-    /* z-index: 10; */
+    z-index: 10;
     margin: auto;
     box-sizing: border-box;
     width: 55%;
@@ -282,4 +282,36 @@ margin: auto;
     margin-left: .5rem;
     border: none;
     color: var(--color-Grayish-blue);
+    font-weight: 500;
+}
+::placeholder{
+    color: var(--color-Grayish-blue);
+}
+.input__text::before{
+    content: "";
+    position: relative;
+    top: -1px;
+    display: block;
+    z-index: 20;    
+    box-sizing: border-box;
+    width: 55%;
+    height: 1.2rem;      
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    background-color:  var(--secondary-White);
+}
+.button.submit{
+    position: relative;    
+    outline: none;
+    border: none;
+    border-radius: 50%;    
+    height:1.3rem;
+    width: 1.3rem;
+    background-color: var(--secondary-Very-dark-desaturated-violet);    
+    background-size: contain;
+    font-size: 12px;
+    background-image:  url(chat-app-css-illustration-master/images/angle-right-solid.svg) !important;   
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
