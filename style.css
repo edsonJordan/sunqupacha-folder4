@@ -179,7 +179,8 @@ margin: auto;
 }
 .content__body{
     position: relative;
-    width: 100%;
+    /* width: 100%; */
+    margin: auto -.6rem;    
 }
 .chat{
     position: relative;
@@ -222,8 +223,63 @@ margin: auto;
 }
 .img.chat{
     object-fit: cover;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
     width: 2.2rem;
     border-radius: .6rem;    
+}
+.chat.super{
+    display: flex;        
+    padding: .6rem;        
+    gap: 2rem;
+    background:  linear-gradient(to left, var(--gradient-Light-violet) 0%, var(--gradient-Light-magenta) 100%);
+    color: var(--secondary-White);
+}
+.check_input{
+    width: 1.15em;
+    height:1.15em;    
+    margin-top: 0;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: .05rem solid #ddd;
+    -webkit-appearance: none;    
+    outline: none;
+    
+    cursor: pointer;
+}
+.check_input:checked {
+    vertical-align: middle;
+    background-color: white;
+}
+.label-super{
+    width: auto;
+    text-justify: auto;
+    
+    vertical-align: middle;
+    font-size: .5rem;    
+}
+.p_price{
+    margin-right: .5rem;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.text__input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-left: auto;
+    margin-right: auto;    
+    padding: .5rem;
+    background-color: var(--secondary-White);
+    border-bottom-left-radius: 2rem ;
+    border-bottom-right-radius: 2rem ;
+    border-top-left-radius: 2rem ;
+    border-top-right-radius: 2rem ;
+    width: 95%;
+    height: auto;
+}
+.input__text{    
+    outline: none;
+    margin-left: .5rem;
+    border: none;
+    color: var(--color-Grayish-blue);
 }
