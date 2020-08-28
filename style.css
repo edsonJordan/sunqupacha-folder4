@@ -338,3 +338,31 @@ margin: auto;
     font-weight: 400;
     color: var(--color-Dark-grayish-violet);
 }
+@media (min-width:800px){
+    .paper__chat{
+        left: -10%;
+        height: 90%;
+        width: 40%;
+        border-bottom-left-radius: 100%;
+    }
+    .container__chat{
+        display: flex;        
+        width: 60%;        
+        margin: auto;
+    }
+    .content__chat{   
+        margin: 3rem auto;     
+        height: auto;
+        width: 85%;        
+    }
+    .chat.super{
+        gap: 1rem;
+    }
+    .text__booking{
+        text-align: left;
+        
+        margin-right: 5rem;
+        margin-left: 5rem;
+        
+    }
+}
