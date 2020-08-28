@@ -52,9 +52,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: var(--secondary-White);
-    border: 1px solid blue;
-    width: 90%;
+    border: 1px solid transparent;
+    width: 80%;
     height: 70%;
+    -webkit-box-shadow: 10px 10px 77px -16px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 77px -16px rgba(0,0,0,0.34);
+    box-shadow: 10px 10px 77px -16px rgba(0,0,0,0.34);
+
 }
 .header__chat{
     position: relative;    
@@ -174,8 +178,8 @@ margin: auto;
     background-color: var(--secondary-Light-grayish-violet);
     height: auto;
     width: 90%;
-    border-bottom-right-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
 }
 .content__body{
     position: relative;
@@ -208,6 +212,7 @@ margin: auto;
     border-bottom-right-radius: .2rem;
     border-bottom-left-radius: .6rem;
     background-color: var(--secondary-White);
+    
 }
 .span_chat{
     display: block;    
@@ -276,6 +281,7 @@ margin: auto;
     border-top-right-radius: 2rem ;
     width: 95%;
     height: auto;
+    margin-bottom: -.5rem;
 }
 .input__text{    
     outline: none;
@@ -301,7 +307,8 @@ margin: auto;
     background-color:  var(--secondary-White);
 }
 .button{
-    position: relative;        
+    position: relative;     
+    outline: none;   
     border: none;
     border-radius: 50%;    
     height:1.3rem;
@@ -315,4 +322,19 @@ margin: auto;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
+}
+
+/* Simple booking */
+.text__booking{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.h2.booking{
+    font-weight: 800;
+    color: var(--color-Very-dark-desaturated-violter);
+}
+.span.booking{
+    font-weight: 400;
+    color: var(--color-Dark-grayish-violet);
 }
